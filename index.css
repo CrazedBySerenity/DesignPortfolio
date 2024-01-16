@@ -18,12 +18,11 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    height: 700px;
 
     box-shadow: inset 0 0 10px 5px rgba(0,0,0,0.3);
 }
 
-.background__wrapper {
+.Section--1 {
     position: relative;
     overflow: hidden;
 
@@ -32,14 +31,14 @@
     justify-content: center;
     align-items: flex-end;
 
-    height: inherit;
+    height: 700px;
     width: 100%;
 }
 
 .background {
     position: absolute;
     width: 100%;
-    height: inherit;
+    height: 100%;
     filter: blur(8px);
     display: flex;
     flex-direction: row;
@@ -54,8 +53,7 @@
     width: 50%;
     height: inherit;
 
-
-  background-color: aliceblue;
+    background-color: aliceblue;
 }
 
 .img--1 {
@@ -84,6 +82,22 @@ linear-gradient(
     rgba(178, 219, 255, 0.6)
 )
 , url(candy.jpg);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.img--3 {
+    background: linear-gradient(to left,
+    rgba(178, 219, 255, 0.6), 
+    rgba(0, 0, 0, 0.7)
+),
+linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(178, 219, 255, 0.6)
+)
+, url(sweet-kicks.jpg);
 
 background-repeat: no-repeat;
 background-size: cover;
@@ -207,6 +221,113 @@ background-position: center;
     100% {
         transform: translate(0px, -585px) scale(5);
     }
+}
+
+.Section--2 {
+    background-color: rgb(160, 191, 201);
+    width: 100vw;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.grid {
+    width: 50vw;
+    height: 50vw;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: repeat(7, auto);
+}
+
+.text-path__container {
+    position: relative;
+
+    grid-column: 2/7;
+    grid-row: 2/5;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    overflow: hidden;
+}
+
+.text-path__text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    width: min-content;
+    transform: rotate(20deg) rotateY(-60deg) scale(7) translate(-50px, -20px);
+
+    z-index: 1;
+
+    margin: 0px;
+}
+
+.text-path__photo {
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+
+    background-image: url(sitting.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.grid__cell {
+    background-color: #c78fb2;
+}
+
+.cell--1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* transition: all 300ms; */
+}
+/* 
+.cell--1:hover {
+    transition: all 300ms;
+    grid-column: 6/7;
+    grid-row: 1/2;
+} */
+
+.cell--2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.cell--3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.cell--4 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.cell--5 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.cell--6 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.cell--7 {
+    grid-column: 2/3;
+    grid-row: 5/6;
 }
 
 .fs--14 {
