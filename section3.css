@@ -1,0 +1,35 @@
+.section--3 {
+    width: 100%;
+}
+
+.img--4 {
+    background-image: url("bubblecar.jpg");
+    background-size: cover;
+    background-position: 0px -300px;
+    width: 100%;
+    height: 900px;
+}
+
+.glass__panel {
+    width: 540px;
+    height: 360px;
+
+    position: relative;
+    left: calc(50% + 200px);
+    top: calc(25% - 100px);
+
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.9px);
+    -webkit-backdrop-filter: blur(13.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.glass__header {
+    
+}
+
+.glass__text {
+
+}

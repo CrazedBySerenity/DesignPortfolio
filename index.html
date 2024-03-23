@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="section1.css">
+    <link rel="stylesheet" href="section2.css">
+    <link rel="stylesheet" href="section3.css">
+    <link rel="stylesheet" href="section4.css">
     <title>Cool Believer Magazine</title>
 </head>
 <body>
     <div class="page-container">
-        <section class="Section--1">
+        <section class="section--1">
             <div class="background">
                 <div class="background__img img--2">
     
@@ -26,22 +31,27 @@
                     <div class="subject__bg"></div>
                 </div>
             </div>
-            <p class="text__base text--1 concert-one-regular fs--36" onmouseover="PlayAnimation(this, 'textAnim1')">
+            <p class="text__base text--1 concert-one-regular text-4xl" onmouseover="PlayAnimation(this, 'textAnim1')">
                 Constant believer
             </p>
-            <p class="text__base text--2 concert-one-regular fs--18" onmouseover="PlayAnimation(this, 'textAnim2')">
-                <span class="fs--36">Super cool</span><br>
+            <p class="text__base text--2 concert-one-regular text-sm" onmouseover="PlayAnimation(this, 'textAnim2')">
+                <span class="text-5xl">Super cool</span><br>
                 This is me <br>
                 It's never too late
             </p>
             <p class="text__base text--3 concert-one-regular" onmouseover="PlayAnimation(this, 'textAnim3')">
                 Be it
             </p>
-            <p class="text__base text--4 concert-one-regular fs--24" onmouseover="PlayAnimation(this, 'textAnim4')">
+            <p class="text__base text--4 concert-one-regular text-lg" onmouseover="PlayAnimation(this, 'textAnim4')">
                 Dream it
             </p>
         </section>
-        <section class="Section--2">
+        <div class="relative w-full">
+            <div class="divider">
+            
+            </div>
+        </div>
+        <section class="section--2 flex">
             <div class="grid">
                 <div class="grid__cell cell--1">
 
@@ -65,10 +75,41 @@
 
                 </div>
                 <div class="text-path__container">
+                    <div class="text-path__photo">
                         <p class="text-path__text concert-one-regular fs--24 text__base">
-                            <span style="font-size: 18px;">B</span><span style="font-size: 26px;">E</span><span style="font-size: 34px;">A</span><span style="font-size: 42px;">U</span><span style="font-size: 50px;">T</span><span style="font-size: 58px;">Y</span>
+                            <span class="text-6xl">B</span><span class="text-xl">E</span><span class="text-3xl">A</span><span class="text-4xl">U</span><span class="text-5xl">T</span><span class="text-8xl">Y</span>
                         </p>
-                    <div class="text-path__photo"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="relative w-full">
+            <div class="divider">
+            
+            </div>
+        </div>
+        <section class="section--3 flex">
+            <div class="background__img img--4">
+                <div class="glass__panel">
+                    <h4 class="glass__header concert-one-regular text-white text-8xl m-2">
+                        Don't wait
+                    </h4>
+                    <p class="glass__text concert-one-regular text-white text-lg m-2">
+                        Never too late to discover the new adventure on your horizon. The unexpected is always ready for you. The present will not return. Seize your opportunities.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <div class="relative w-full">
+            <div class="divider">
+            
+            </div>
+        </div>
+        <section class="section--4 flex flex-col column content-center">
+            <div class="circle__large">
+                <div class="circle__small">
+
                 </div>
             </div>
         </section>

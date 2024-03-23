@@ -1,0 +1,12 @@
+.section--4 {
+    width: 100%;
+    height: 900px;
+}
+
+.circle__large {
+    background-color: #e5b04d;
+    border-radius: 50%;
+
+    width: 500px;
+    height: 500px;
+}
