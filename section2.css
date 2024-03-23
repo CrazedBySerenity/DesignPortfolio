@@ -1,5 +1,11 @@
 .section--2 {
-    background-color: var(--std-blue);
+    position: relative;
+
+    
+    background-image: url(sweet-kicks.jpg);
+    background-size: cover;
+    background-position: left;
+
     width: 100%;
     height: 100%;
 
@@ -8,6 +14,39 @@
     align-items: flex-end;
 
     z-index: -10;
+}
+
+.half-circle--left {
+    width: 800px;
+    height: 600px;
+
+    background-color: var(--std-blue);
+
+    border-radius: 0 50% 50% 0;
+
+    overflow: hidden;
+}
+
+.section--2__panel {
+    width: 400px;
+    height: 140px;
+    
+    position: absolute;
+
+    left: 470px;
+    bottom: 100px;
+
+    border-radius: 15px;
+}
+
+.section--2__img--1 {
+    background-image: url(dj-gorilla.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 600px;
+
+    transform: scaleX(-1);
 }
 
 .grid {
@@ -25,11 +64,12 @@
 }
 
 .text-path__container {
-    position: relative;
+    position: absolute;
+    top: 50px;
+    right: 100px;
 
-    grid-column: 2/7;
-    grid-row: 2/5;
-    width: 100%;
+    width: 700px;
+    height: 200px;
 
     z-index: -2;
 
@@ -65,6 +105,8 @@
     z-index: -1;
 
     margin: 0px;
+
+    color: white;
 }
 
 .text-path__photo {
