@@ -1,0 +1,101 @@
+.section--5 {
+    min-height: 800px;
+    width: 100%;
+}
+
+.stripe__container {
+    background-color: var(--std-yellow);
+    position: relative;
+    width: 110%;
+    height: fit-content;
+
+    transform: rotateZ(-5deg) translateX(-100px);
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stripe__photo {
+    width: 500px;
+    height: 200px;
+
+    background-color: var(--std-blue);
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.stripe__foreground-photo {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+
+    z-index: 2;
+
+    background-image: url("hoodie-dog.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--1 {
+    background-image: url("cyber-cat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--2 {
+    background-image: url("cotton-candy.girl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--3 {
+    background-image: url("chill-chinchilla.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--4 {
+    background-image: url("scarf-giraffe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--5 {
+    background-image: url("yellow-kitten.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--6 {
+    background-image: url("surf-dog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--7 {
+    background-image: url("morning-sloth.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--8 {
+    background-image: url("tiny-bird.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stripe__photo--9 {
+    background-image: url("cyber-frog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
